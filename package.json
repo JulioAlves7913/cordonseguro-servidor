@@ -1,0 +1,15 @@
+{
+  "name": "cordonseguro-servidor",
+  "description": "Servidor Node-RED para CordonSeguro",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "node-red": "^4.0.0"
+  },
+  "scripts": {
+    "start": "node-red -u . --port $PORT"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
